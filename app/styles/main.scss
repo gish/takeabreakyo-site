@@ -1,0 +1,27 @@
+$text-color: #fff;
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #9B59B6;
+    color: $text-color;
+    font-family: 'Montserrat', arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 700;
+}
+
+.page-wrapper {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    color: $text-color;
+}
+
